@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: .75rem 1rem;
+  background-color: #e2e2e2;
+}
+
+img {
+  align-self: flex-start;
+}
